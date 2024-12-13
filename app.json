@@ -32,10 +32,15 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "locales": {
+      "en-US": "./i18n/locales/en-US/translation.json",
+      "ar": "./i18n/locales/ar/translation.json"
     }
   }
 }

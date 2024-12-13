@@ -1,6 +1,7 @@
 import { Stack } from "expo-router";
 import "../global.css";
 import { ThemeProvider, useTheme } from "@/hooks/useTheme";
+import "@/i18n";
 
 function RootLayoutContent() {
   const { theme } = useTheme();
